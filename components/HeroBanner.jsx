@@ -1,9 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
-
+import Image from 'next/image'
 import { urlFor } from "../lib/client"
 
 const HeroBanner = ({heroBanner}) => {
+  const loaderProp =({ src }) => {
+    return src;
+  }
   return (
     <div className='hero-banner-container'>
       <div>

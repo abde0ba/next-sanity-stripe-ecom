@@ -1,12 +1,12 @@
-import React, { useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { BsBagCheckFill } from 'react-icons/bs';
 
-import { useStateContext } from '../context/StateContext';
+import { UseStateContext } from '../context/StateContext';
 
-const success = () => {
-    const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
+const Success = () => {
+    const { setCartItems, setTotalPrice, setTotalQuantities } = UseStateContext();
     
     useEffect(() => {
         localStorage.clear();
@@ -38,4 +38,4 @@ const success = () => {
   )
 }
 
-export default success
+export default Success
