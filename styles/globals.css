@@ -589,6 +589,10 @@ margin-top: 160px;
    color: green;
    font-size: 40px;
 }
+#cancel .icon {
+  color: red;
+  font-size: 50px;
+}
 .success h2{
   text-transform: capitalize;
   margin-top: 15px 0px;
@@ -761,5 +765,9 @@ margin-top: 160px;
 .btn-container{
   width: 300px;
   margin: auto;
+}
+.cancel .icon {
+  color: red;
+  font-size: 50px;
 }
 }
